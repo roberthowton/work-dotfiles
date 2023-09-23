@@ -1,0 +1,55 @@
+{
+  "editor.accessibilitySupport": "off",
+  "editor.colorDecorators": false,
+  "editor.cursorStyle": "line",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.fontFamily": "Fira Code",
+  "editor.fontLigatures": true,
+  "editor.fontSize": 18,
+  "editor.fontWeight": "300",
+  "editor.formatOnSave": true,
+  "editor.letterSpacing": 0.5,
+  "editor.minimap.enabled": false,
+  "editor.multiCursorModifier": "ctrlCmd",
+  "editor.quickSuggestionsDelay": 30,
+  "editor.tabSize": 2,
+  "editor.wordWrap": "on",
+  "explorer.confirmDelete": false,
+  "files.associations": {
+    ".env.*": "shellscript",
+    ".envrc.*": "shellscript"
+  },
+  "files.trimTrailingWhitespace": true,
+  "git.confirmSync": false,
+  "githubPullRequests.createOnPublishBranch": "never",
+  "githubPullRequests.pushBranch": "always",
+  "html.format.enable": true,
+  "html.format.preserveNewLines": true,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "lldb.library": "/Applications/Xcode.app/Contents/SharedFrameworks/LLDB.framework/Versions/A/LLDB",
+  "security.workspace.trust.untrustedFiles": "open",
+  "terminal.integrated.defaultProfile.osx": "zsh",
+  "terminal.integrated.env.osx": {
+    "FIG_NEW_SESSION": "1"
+  },
+  "terminal.integrated.fontSize": 17,
+  "terminal.integrated.profiles.osx": {
+    "zsh": {
+      "path": "/bin/zsh"
+    }
+  },
+  "workbench.colorTheme": "Cobalt2",
+  "workbench.settings.editor": "json",
+  "workbench.sideBar.location": "right",
+  "workbench.startupEditor": "none",
+  "githubPullRequests.pullBranch": "never",
+  "git.ignoreRebaseWarning": true,
+  "jest.autoRun": {
+    "watch": false,
+    "onSave": "test-src-file"
+  },
+  "terminal.integrated.enableMultiLinePasteWarning": false,
+  "lldb.suppressUpdateNotifications": true,
+  "githubPullRequests.fileListLayout": "tree",
+  "codestream.serverUrl": "https://codestream-us1.service.newrelic.com"
+}
