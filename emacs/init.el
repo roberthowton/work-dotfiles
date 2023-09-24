@@ -557,3 +557,16 @@ T - tag prefix
 (use-package org-rich-yank)
 
 (message "reached end of init file")
+(custom-set-variables
+ ;; custom-set-variables was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ '(package-selected-packages
+   '(no-littering org-rich-yank visual-fill-column org-bullets org-appear dired-hide-dotfiles dired-open diredfl dired-single magit ace-window hydra general evil-nerd-commenter evil-collection evil which-key cape corfu embark-consult embark consult marginalia orderless vertico elisp-demos helpful all-the-icons-completion all-the-icons-dired all-the-icons modus-themes diminish)))
+(custom-set-faces
+ ;; custom-set-faces was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ )
