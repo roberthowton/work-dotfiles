@@ -863,15 +863,24 @@ Enable spell checking when =ispell= is found in =exec-path=.
 
 *** Aesthetics
 
+**** Org-Modern
+
+#+begin_src emacs-lisp
+
+  (use-package org-modern
+    :hook (org-mode . org-modern-mode))
+
+#+end_src
+
 **** Nicer Heading Bullets
 
 #+begin_src emacs-lisp
 
-(use-package org-bullets
-  :after org
-  :hook (org-mode . org-bullets-mode)
-  :custom
-  (org-bullets-bullet-list '("◉" "○" "●" "○" "●" "○" "●")))
+  ;; (use-package org-bullets
+  ;;   :after org
+  ;;   :hook (org-mode . org-bullets-mode)
+  ;;   :custom
+  ;;   (org-bullets-bullet-list '("◉" "○" "●" "○" "●" "○" "●")))
 
 #+end_src
 
@@ -879,13 +888,13 @@ Enable spell checking when =ispell= is found in =exec-path=.
 
 #+begin_src emacs-lisp
 
-    (defun rfh/org-mode-visual-fill ()
-      (setq visual-fill-column-width 80
-	    visual-fill-column-center-text t)
-      (visual-fill-column-mode 1))
+  ;; (defun rfh/org-mode-visual-fill ()
+  ;;   (setq visual-fill-column-width 80
+  ;; 	visual-fill-column-center-text t)
+  ;;   (visual-fill-column-mode 1))
 
-    (use-package visual-fill-column
-     :hook (org-mode . rfh/org-mode-visual-fill))
+  ;; (use-package visual-fill-column
+  ;;  :hook (org-mode . rfh/org-mode-visual-fill))
 
 #+end_src
 
